@@ -1,0 +1,38 @@
+h1{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+}
+
+ul{
+    background-color: aqua;
+    font-size: 15px;
+    width: 200px;
+    padding: 50px;
+    text-align: center;
+}
+
+ol{
+    background-color: gold;
+    width: 200px;
+    margin: 50px;
+}
+
+p{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 25px;
+}
+
+#perfil{
+    background-color: lightcoral;
+    width: 300px;
+    height: 300px;
+}
+
+.subtitulos{
+    color: crimson;
+    background-color: darksalmon;
+    width: 300px;
+}
