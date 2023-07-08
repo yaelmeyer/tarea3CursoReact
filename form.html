@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="">
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre">
+        </p>
+        <p>
+            <label for="apellido">Apellido</label>
+            <input type="text" name=""apellido>
+        </p>
+        <label for="asunto">Asunto</label>
+        <ul>
+            <li>
+                <input type="radio" name="asunto" value="consulta">
+                <label>Consulta</label>
+            </li>
+            <li>
+                <input type="radio" name="asunto" value="pedido">
+                <label>Pedido</label>
+            </li>
+        </ul>
+
+        <label for="respuesta">Tipo Respuesta</label>
+        <ul>
+            <select name="respuesta">
+                <option value="mail">mail</option>
+                <option value="telefono movil">telefono movil</option>
+            </select>
+        </ul>
+
+        <p>
+            <label for="comentarios">Escriba aqui su consulta</label>
+            <textarea name="comentarios"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="Borrar"/>
+        </p>
+    </form>
+
+</body>
+</html>
