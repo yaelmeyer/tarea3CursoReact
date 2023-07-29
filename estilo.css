@@ -36,3 +36,21 @@ p{
     background-color: darksalmon;
     width: 300px;
 }
+
+.titulo{
+    background: rgb(2,0,36);
+    background: linear-gradient(86deg, rgba(2,0,36,1) 0%, rgba(235,182,82,0.2665441176470589) 35%, rgba(0,212,255,1) 100%);  
+}
+
+.caja{
+    box-shadow: 10px 10px 5px black;
+    border-radius: 10px;
+}
+
+#fotoPerfil{
+    box-shadow: 60px -9px 43px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 60px -9px 43px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 60px -9px 43px -6px rgba(0,0,0,0.75);
+
+    border-radius: 50%;
+}
