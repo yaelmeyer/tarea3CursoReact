@@ -54,3 +54,49 @@ p{
 
     border-radius: 50%;
 }
+
+.item{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-roja{
+    background-color: red;
+}
+.caja-azul{
+    background-color: blue;
+}
+.caja-verde{
+    background-color: green;
+}
+
+.contenedor {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:end;
+    border: 1px solid;
+}
+
+.contenedor2{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid;
+}
+
+.contenedor3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    border: 1px solid;
+}
